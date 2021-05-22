@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!-----------------------w3-CSS------------------------------------->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="w3.css">
+  
+  <!-------------------------css bootstrap cdn------------------------>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!---------------------------css stylesheet------------------------------->
+  <link rel="stylesheet" href="bootstrap-dist/css/style.css">
+
+  <!------------fontawesome cdn----------------->
+  <script src="https://kit.fontawesome.com/61024fa0a4.js" crossorigin="anonymous"></script>
+
+
+<!------------------jquery/js bootstrap cdn---------------------->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   
+    <!-----------------nav-bar----------------------->
+   <!--Navigation bar-->
+   <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+  </script>
+
+
+  <!--------header-->
+
+  <div class="container-fluid-1">
+    <h1 class="ml10">
+        <span class="text-wrapper">
+          <span class="letters">Frequently Asked Questions...</span>
+        </span>
+      </h1>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</div>
+
+  <!------------accordion------------> 
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="color:black;"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <i class="fas fa-star"></i> How do I cancel the order, I have placed?
+          </button>
+        </h5>
+      </div>
+  
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+            Order can be canceled till the same is out for delivery. Note: This may not be applicable for certain logistics partner. You would see an option to cancel within 'My Orders' section under the main menu of your App/Website/M-site then select the item or order you want to cancel. In case you are unable to cancel the order from'My Orders' section, you can refuse it at the time of delivery and refund will be processed into the source account, if order amount was paid online.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <i class="fas fa-star"></i>I want to know about EMI (credit card) payment option?
+
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+            EMI (Credit Card) is a convenient payment option that you can choose to pay for the order in easy installments to the credit card issuing bank. The option is available only on credit cards issued by the following banks:
+
+
+           <ul><li>HDFC</li>
+            <li>ICICI</li>
+            <li>SBI</li>
+            <li>Axis</li>
+            <li>Amex</li>
+            <li>HSBC</li>
+            <li>Induslnd</li>
+            <li>Kotak</li>
+            <li>RBL</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <i class="fas fa-star"></i> How do I apply a coupon on my order?
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+            You can apply a coupon on cart page before order placement. The complete list of your unused and valid coupons will be available under “My Coupons” tab of App/Website/M-site.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <i class="fas fa-star"></i> Will return & exchange policy be available on Try and Buy orders?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            Yes, you can avail return & exchange policy even, if you have accepted the Try and Buy order. Return & exchange policy rules will apply
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <i class="fas fa-star"></i> How does the COD (Cash on Delivery) payment option work?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            Myntra's Cash on Delivery option allows you to pay order value at the time of delivery for all orders between Rs. 299 and Rs. 49999. Your existing limits will be revised once, there is a delivery or order rejected against your account, from the new limit implementation logic, if required.To pay for any order using Cash on Delivery (COD) mode of payment, please select the 'Cash On Delivery' option on the payment page. Cash on Delivery option is available only in selected pincodes.However the COD limit may differ from customer to customer depending upon the order rejection percentage from a particular customers registered email id. For avoidance of doubt, 'Order Rejection Percentage' shall mean any undelivered orders which are returned from the address provided by the customer even, after three successful delivery attempts. In event of COD limit breach, your order will be cancelled and you will have to place a new order using Pre-payment options.
+
+Further, the COD limit for any user may get decreased to Rs. 24,999, Rs.1500, Rs.0 basis on order rejection percentage and can be reset to Rs.49,999 basis on Order acceptance percentage and number of prepaid orders placed, post limit decrease.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <i class="fas fa-star"></i> I just cancelled my order. When will I receive my refund?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+          <div class="card-body">
+            If you had selected Cash on Delivery, there is no amount to be refunded because you haven't paid for your order. For payments made via Credit Card, Debit Card, Net Banking, or Wallet you will receive refund into the source account within 7-10 days from the time of order cancellation. If payment was made by redeeming PhonePe wallet balance then, then refund will be instant post order cancellation, which can be later transferred into your bank account, by contacting PhonePe customer support team.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSeven">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;"  data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                <i class="fas fa-star"></i> Can I modify the shipping address of my order after it has been placed?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+          <div class="card-body">
+            Yes, You can modify the shipping address of your order before we have processed (packed) it, by updating it under 'change address' option which is available under ‘My order’ section of App/Website/M-site
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEight">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                <i class="fas fa-star"></i> How do I return multiple products from a single order?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+          <div class="card-body">
+            If you are returning multiple products from a single order then, you will receive a separate Return ID via e-mail for each item. If you are self-shipping the products, you can ship all the products in a single shipment. Please mention the Return IDs for all the products on a single sheet of paper and place it inside the packet.If mode of return is Pickup, our courier person will pickup the products from the pickup address.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingNine">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                <i class="fas fa-star"></i> Why did the pick up of my product fail?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+          <div class="card-body">
+            We make three attempts to pick up the item, if the item is not picked up in the third attempt, Pickup request will be marked as failed. You can initiate a new return request, if item meets the return criteria and is within the specified return/exchange period (check product details page for the same). For more details, please call our customer care.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTen">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                <i class="fas fa-star"></i> How can I get my order delivered faster?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+          <div class="card-body">
+            Sorry, currently we do not have any service available to expedite the order delivery. In future, if we are offering such service and your area pincode is serviceable, you will receive a communication from our end.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEleven">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                <i class="fas fa-star"></i> How do I create a Return Request?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+          <div class="card-body">
+            You can create a Return in three simple steps
+            <ul><li>Tap on MyOrders</li>
+                <li>Choose the item to be Returned</li>
+                <li>Enter details requested and create a return request</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwelve">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                <i class="fas fa-star"></i> As 'My cashback' is no more a payment option, what will happen to 'My Cashback' balance?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+          <div class="card-body">
+            You may utilize entire outstanding amount available in ‘My Cashback’ by making purchases on Myntra on or before 31st August, 2016. You may also transfer ‘My Cashback’ balance into your bank account by filling your bank details under payment option of ‘Contact Us’ form. On and from 01 Sep, 2016, ‘My Cashback’ will not be available and outstanding balance (if any) will be transferred to your PhonePe wallet. You will receive an email to activate/verify your PhonePe account.
+            You can also transfer your PhonePe balance at any time to bank account of your choice.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThirteen">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                <i class="fas fa-star"></i> How will I detect fraudulent emails/calls seeking sensitive personal and confidential information?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+          <div class="card-body">
+            If you receive an e-mail, a call from a person/association claiming to be from Myntra seeking sensitive confidential information like debit/credit card PIN, net-banking or mobile banking password, we request you to never provide such confidential and personal data. We at Myntra or our affiliate logistics partner never ask for such confidential and personal data. If you have already revealed such information, report it immediately to an appropriate law enforcement agency.
+
+            Here are a couple of baits fraudsters often use to cheat consumers:
+
+
+            Congratulations! You have been nominated as a ‘Top Myntra customer’ and are now eligible for a luxury gift item. Please share your proof of address and your debit/credit card details to avail this great offer.
+
+
+            Hi, I’m calling from Myntra. We are happy to let you know that you have won an exclusive lucky draw coupon of Rs. 5000 on your latest purchase. Please share your credit/debit card number so we can credit the money directly into your bank account.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFourteen">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                <i class="fas fa-star"></i> How will I identify a genuine appointment letter?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+          <div class="card-body">
+            Please beware of the fraudulent individuals/agencies that are enticing job seekers by promising them career opportunities at Myntra in lieu of 1.) recruitment fee 2.) processing fee 3.) security deposit 4.) software or equipment charges 5.) on-boarding charges etc. Please be cautious that, Myntra and its recruitment partners never ask for any fee in exchange for an offer letter or interview calls. All offer related communications are sent from an official Myntra email id only.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFifteen">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" style="color:black;" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                <i class="fas fa-star"></i> What payment methods can I use to pay for a gift order?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
+          <div class="card-body">
+            You can use any payment method that Myntra supports, except Cash on Delivery.
+          </div>
+        </div>
+      </div>
+  </div>
+
+    
+  <!------------------------------- Footer --------------------------->
+  <footer class="page-footer font-small mdb-color pt-4" style="background-color:#b4bbe0;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">\Slash</h6>
+          <p>Slash is a free shopping website for shopping maniacs. Slash was founded in May 2021 by Riya Jha. Slash is more than just a shopping-cart, it is rapidly growing eCommerce platform with many benefits.</p>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none">
+  
+       
+        <!-- Grid column -->
+  
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+          <p>
+            <a href="mailto:riya.jha2305@gmail.com">Contact me</a>
+          </p>
+          <p>
+            <a href="privacypolicy.html">Privacy policy</a>
+          </p>
+          <p>
+            <a href="FAQs.html">FAQs</a>
+          </p>
+          <p>
+            <a href="#!">T&C</a>
+          </p>
+        </div>
+  
+  
+  
+  
+  
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> India, Rajasthan Kota</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> riya.jha@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 91 895 579 2887</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 91 955 603 1930</p>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Footer links -->
+  
+      <hr>
+  
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+  
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+  
+          <!--Copyright-->
+          <p class="text-center text-md-left">© 2021 RiyaJha_Developer:
+            <a href="https://mdbootstrap.com/">
+              <strong> Made in India</strong>
+            </a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+  
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+  </footer>
+  
+  <!-- Footer -->
+  
+  
+  
+
+  <!-----text-animation-FAQs-heading---->
+  <script> 
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml10 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml10 .letter',
+    rotateY: [-90, 0],
+    duration: 1300,
+    delay: (el, i) => 45 * i
+  }).add({
+    targets: '.ml10',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  </script>
+   <script
+   src="https://code.jquery.com/jquery-3.6.0.js"
+   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+   crossorigin="anonymous"></script>
+</body>
+</html>
